@@ -1,0 +1,76 @@
+@startuml
+!definelong ce_valid_name(name)
+!if (name == "WLFE_FeatureApp")
+name
+!elseif (name == "WLFE_FeatureService")
+name
+!elseif (name == "BFF")
+name
+!elseif (name == "BFF_SMT")
+name
+!elseif (name == "Protectr_uBFF")
+name
+!elseif (name == "Protectr_CE")
+name
+!elseif (name == "APIGW_CATech")
+name
+!elseif (name == "IDP_Cloud_CE")
+name
+!elseif (name == "IDP_IDK_CE")
+name
+!elseif (name == "AWS_ParamStore")
+name
+!elseif (name == "AWS_SQS")
+name
+!elseif (name == "AWS_SES")
+name
+!elseif (name == "AWS_S3")
+name
+!elseif (name == "CE_uBFF")
+name
+!elseif (name == "CE_MicroGW")
+name
+!elseif (name == "CE_MS_Products")
+name
+!elseif (name == "CE_MS_Carts")
+name
+!elseif (name == "CE_MS_Payments")
+name
+!elseif (name == "CE_MS_Orders")
+name
+!elseif (name == "CE_MS_Customers")
+name
+!elseif (name == "CE_MS_Messaging")
+name
+!elseif (name == "CE_MS_Fulfillment")
+name
+!elseif (name == "CE_MS_Sync")
+name
+!elseif (name == "CE_MS_Schedule")
+name
+!elseif (name == "CE_MS_GraphQL")
+name
+!elseif (name == "CE_MS_Subscriptions")
+name
+!elseif (name == "CE_Kafka")
+name
+!elseif (name == "Commercetools_API")
+name
+!elseif (name == "Commercetools_DB")
+name
+!elseif (name == "Ext_LSP_Arvato")
+name
+!elseif (name == "Ext_PSP_Contoworks")
+name
+!elseif (name == "Ext_Hub_IWMS")
+name
+!elseif (name == "Ext_Inv_Nitrobox")
+name
+!elseif (name == "Ext_Serv_Wilken")
+name
+!else
+Unknown
+!enddefinelong
+@enduml
+
+
